@@ -1,0 +1,16 @@
+{
+"name": "roblox-module-id-proxy",
+"version": "1.0.0",
+"description": "Simple proxy that returns real module IDs only to Roblox requests; random IDs to browsers.",
+"main": "index.js",
+"scripts": {
+"start": "node index.js",
+"start:dev": "NODE_ENV=development node index.js"
+},
+"dependencies": {
+"express": "^4.18.2",
+"helmet": "^7.0.0",
+"cors": "^2.8.5",
+"express-rate-limit": "^6.7.0"
+}
+}
